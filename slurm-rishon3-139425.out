@@ -1,0 +1,7 @@
+cpu-bind=MASK - rishon3, task  0  0 [56073]: mask 0x100000001 set
+cpu-bind=MASK - rishon3, task  0  0 [56073]: mask 0x100000001 set
+*** SLURM BATCH JOB 'test_job' STARTING ***
+*** Activating environment cs236605-hw ***
+is cuda availbele -  True
+device used now -  0
+*** SLURM BATCH JOB 'test_job' DONE ***

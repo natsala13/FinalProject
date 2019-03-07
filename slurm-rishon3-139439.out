@@ -1,0 +1,15 @@
+cpu-bind=MASK - rishon3, task  0  0 [61675]: mask 0x200000002 set
+cpu-bind=MASK - rishon3, task  0  0 [61675]: mask 0x200000002 set
+*** SLURM BATCH JOB 'test_job' STARTING ***
+*** Activating environment cs236605-hw ***
+Traceback (most recent call last):
+  File "test.py", line 30, in <module>
+    from options.test_options import TestOptions
+  File "/home/natsala/finalProject/pytorch-CycleGAN-and-pix2pix/options/test_options.py", line 1, in <module>
+    from .base_options import BaseOptions
+  File "/home/natsala/finalProject/pytorch-CycleGAN-and-pix2pix/options/base_options.py", line 3, in <module>
+    from util import util
+  File "/home/natsala/finalProject/pytorch-CycleGAN-and-pix2pix/util/util.py", line 3, in <module>
+    import torch
+ImportError: No module named torch
+*** SLURM BATCH JOB 'test_job' DONE ***
